@@ -8,7 +8,7 @@ public class Example {
     // Find your Account SID and Auth Token at twilio.com/console
     // and set the environment variables. See http://twil.io/secure
     public static final String ACCOUNT_SID = System.getenv("AC2eafcafe57f1e5ae384bedc2e431818f");
-    public static final String AUTH_TOKEN = System.getenv("0280a45ef6aa328094f273f9c4f48d0a");
+    public static final String AUTH_TOKEN = System.getenv("53320606d90af8f960f99b9b00a8dfe6");
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         
