@@ -1,0 +1,17 @@
+/*Make hologram making algorithm, based on meisner effect, superconductor, Research paper on HOLOGRAM, manuscript ID:IJTRA/1711038 of IJTRA Science magazine*/
+
+public class Main{
+  public static void main[String args()]{
+    int i,j,k,LASTi, LASTj,obj_shade;
+    0<obj_shade<=255;             /*color shade based k axis*/
+    for(i=1; i<=LASTi;i++){
+    for(k=1; k<=LASTj; k++){
+      if(obj_shade>=100){
+        k-=obj_shade;
+      }
+      else if(obj_shade<100){
+        k+=obj_shade;
+      }
+   }   
+  }
+ }
